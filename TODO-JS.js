@@ -1,6 +1,12 @@
 //  @_MR_PRANAV____
 //  A SIMPLE TODO APP USING JAVA-SCRIPT WOTHOUT USING DOM CONCEPT 
 
+
+window.onload = function() {
+    debugger; // This will automatically open the DevTools console
+    console.log("Console opened automatically!");
+};
+
 let arr = [];
 let req =  prompt("PLEASE ENTER A REQUEST")
 
