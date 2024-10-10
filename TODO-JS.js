@@ -2,15 +2,16 @@
 //  A SIMPLE TODO APP USING JAVA-SCRIPT WOTHOUT USING DOM CONCEPT 
 
 
-window.onload = function() {
-    debugger; // This will automatically open the DevTools console
-    console.log("Console opened automatically!");
-};
-
+// window.onload = function() {
+//     debugger; // This will automatically open the DevTools console
+//     console.log("Console opened automatically!");
+// };
+alert("⚠️ NOTIC: Before Use Please Open The Console Window");
 let arr = [];
 let req =  prompt("PLEASE ENTER A REQUEST")
 
 while(true){
+   
     if(req == "4"){
         console.log("QUITING FROM APP");
         arr = [];
